@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="protfilo.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <div id="containHerdaer">
+            <div id="header">
+                <button id="menu" onclick="hotdog()">
+                    <img src="images/menu.svg" alt="Menu" id="menuI">
+                </button>
+                <span id="heardertxt">
+                    Portfolio
+                </span>
+                <button id="theme" onclick="darkMode()">
+                    <img src="images/dark.svg" alt="Dark Mode" id="themeCol">
+                </button>
+            </div>
+        </div>
+        <div id="toggleContainer">
+            <div id="toggleBar">
+                <div id="toggleHeader">
+                    <span></span>
+                    <span id="tglNote">
+                        Menu
+                    </span>
+                    <img src="images/close.svg" alt="" id="close" onclick="backTgl()">
+                </div>
+                <div id="toggleBody">
+                    <div class="s" onclick="home()">
+                        <p class="toggleItems">Home</p>
+                    </div>
+                    <div class="s" onclick="about()">
+                        <p class="toggleItems">About us</p>
+                    </div>
+                    <div class="s" onclick="service()">
+                        <p class="toggleItems">Services</p>
+                    </div>
+                    <div class="s" id="active">
+                        <p class="toggleItems" id="activeTgl">Portfolio</p>
+                    </div>
+                    <div class="s" onclick="contact()">
+                        <p class="toggleItems">Contact</p>
+                    </div>
+                </div>
+            </div>
+            <div id="cancle" onclick="backTgl()">
+
+            </div>
+        </div>
+        <div id="containerBody">
+            <div id="body">
+                <div id="noteContainer">
+                    <div id="note">
+                        Legesse’s experience and skills span across church leadership education and community service.
+                        <br><br><b>Education & Certifications: </b>
+                        <ul>
+                            <li>
+                                Special Capacity Building Training Program for Secondary
+                                School Teachers FDRE Ministry of Education Addis Ababa University.
+                            </li>
+                            <li>
+                                Certificate in Christian Theology New Life Joshua Campaign Ethiopia.
+                            </li>
+                            <li>
+                                Pedagogy Training Wollega University.
+                            </li>
+                            <li>
+                                University Studies Jimma Main Campus.
+                            </li>
+                            <li>
+                                Preparatory School Bako Secondary School.
+                            </li>
+                            <li>
+                                Elementary School Anno Elementary School.
+                            </li>
+                        </ul>
+                        <b>Skills: </b>
+                        <ul>
+                            <li>
+                                Church Planting & Leadership.
+                            </li>
+                            <li>
+                                Spiritual Guidance & Counseling.
+                            </li>
+                            <li>
+                                Secondary School Physics Teaching.
+                            </li>
+                            <li>
+                                Curriculum Development & Classroom Management.
+                            </li>
+                            <li>
+                                Student Engagement & Mentorship.
+                            </li>
+                            <li>
+                                Multilingual Communication Afaan Oromo, Amharic & English.
+                            </li>
+                            <li>
+                                Theological Understanding.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,176 @@
+* {
+    overflow: hidden;
+}
+@font-face {
+    font-family: open_sans;
+    src: url('images/Montserrat,Open_Sans/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf');
+}
+@font-face {
+    font-family: montserrat;
+    src: url('images/Montserrat\,Open_Sans/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+#container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #c1fc9fda;
+}
+#containHerdaer {
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header {
+    width: 92%;
+    height: 70%;
+    background-image: url('images/sky.png');
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    font-family: open_sans;
+}
+#menu, #theme {
+    background-color: transparent;
+    border: 0px solid black;
+    color: #fff;
+}
+#heardertxt {
+    color: #111;
+    font-size: 140%;
+    font-weight: 1000;
+}
+#toggleContainer {
+    width: 100vw;
+    height: 1000vh;
+    position: fixed;
+    top: 0px;
+    left: -100vw;
+    transition: 1s;
+    display: flex;
+    justify-content: flex-start;
+}
+#toggleBar {
+    width: 70%;
+    height: 100%;
+    background-color: #000000;
+}
+#toggleHeader {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.402);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#toggleBody {
+    width: 100%;
+    height: 90vh;
+    background-color: #00000065;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#close {
+    width: 8.5%;
+    height: 8vh;
+    margin-right: 10px;
+}
+#cancle {
+    width: 30%;
+    height: 100%;
+    transition: 1s;
+}
+#tglNote {
+    font-weight: 1000;
+    font-size: 160%;
+    color: #fff;
+}
+#containerBody {
+    width: 100vw;
+    height: 88%;
+    display: flex;
+    justify-content: center;
+}
+#body {
+    width: 94%;
+    height: 99%;
+    background-image: url('images/sky.png');
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.toggleItems {
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    font-size: 140%;
+    font-weight: 1000;
+    padding-left: 8%;
+    transition: .3s;
+}
+.s {
+    width: 95%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    transition: .3s;
+    margin-top: 10px;
+}
+.s:hover , #active{
+    background-image: url('images/sky.png');
+    background-size: contain;
+    transition: .3s;
+    height: 12.5%;
+}
+.s:hover > .toggleItems, #activeTgl {
+    color: rgb(63, 61, 61);
+    padding-left: 12%;
+}
+.s:active {
+    background-image: url('images/sky.png');
+    background-size: contain;
+}
+#noteContainer {
+    width: 90%;
+    height: 95%;
+    background-color: rgba(107, 24, 24, 0.8);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    padding-top: 10px;
+}
+#note {
+    height: 100%;
+    padding: 0px 15px;
+    color: lightgray;
+    font-weight: 600;
+    font-family: montserrat;
+    line-height: 130%;
+    overflow-y: auto;
+}
+b {
+    font-weight: 800;
+    font-size: 120%;
+}
+ul {
+    list-style-type: disc !important;
+}
+li {
+    overflow: visible;
+}

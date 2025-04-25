@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacts</title>
+    <link rel="stylesheet" href="contact.css">
+    <script src="contact.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <div id="containHerdaer">
+            <div id="header">
+                <button id="menu" onclick="hotdog()">
+                    <img src="images/menu.svg" alt="Menu" id="menuI">
+                </button>
+                <span id="heardertxt">
+                    contact us
+                </span>
+                <button id="theme" onclick="darkMode()">
+                    <img src="images/dark.svg" alt="Dark Mode" id="themeCol">
+                </button>
+            </div>
+        </div>
+        <div id="toggleContainer">
+            <div id="toggleBar">
+                <div id="toggleHeader">
+                    <span></span>
+                    <span id="tglNote">
+                        Menu
+                    </span>
+                    <img src="images/close.svg" alt="" id="close" onclick="backTgl()">
+                </div>
+                <div id="toggleBody">
+                    <div class="s" onclick="home()">
+                        <p class="toggleItems">Home</p>
+                    </div>
+                    <div class="s" onclick="about()">
+                        <p class="toggleItems">About us</p>
+                    </div>
+                    <div class="s" onclick="service()">
+                        <p class="toggleItems">Services</p>
+                    </div>
+                    <div class="s" onclick="protfolio()">
+                        <p class="toggleItems">Portfolio</p>
+                    </div>
+                    <div class="s" id="active">
+                        <p class="toggleItems" id="activeTgl">Contact</p>
+                    </div>
+                </div>
+            </div>
+            <div id="cancle" onclick="backTgl()">
+
+            </div>
+        </div>
+        <div id="containerBody">
+            <div id="body">
+                <div id="noteContainer">
+                    <div id="note">
+                        <b>
+                            If you need anything feel free to reach out.
+                        </b>
+                        <div id="contain">
+                            <div class="firstClass">
+                                <div id="contact">
+                                    <img src="images/youtube.png" alt="" id="icon">
+                                    <a href="http://www.youtube.com/@legessediriba2946" target="_blank" rel="noopener noreferrer">Legesse Diriba</a>
+                                </div>
+                                <div id="contact">
+                                    <img src="images/telegram.png" alt="" id="icon">
+                                    <a href="https://t.me/+Tw4NrnridcBdhwzA" target="_blank" rel="noopener noreferrer">Hundee Ebeenezer</a>
+                                </div>
+                                <div id="contact">
+                                    <img src="images/instagram.png" alt="" id="icon">
+                                    <a href="https://www.instagram.com/legesse.diriba?igsh=N283bHlvdGJ6cjNv" target="_blank" rel="noopener noreferrer">Legesse Diriba</a>
+                                </div>
+                            </div>
+                            <div class="secondClass">
+                                <div id="contact">
+                                    <img src="images/email.png" alt="" id="icon">
+                                    <a href="mailto:legesse22@gmail.com" target="_blank" rel="noopener noreferrer">Email: Legesse</a>
+                                </div>
+                                <div id="contact">
+                                    <img src="images/phone.png" alt="" id="icon">
+                                    <a href="tell:+251921197337" target="_blank" rel="noopener noreferrer">Legesse Diriba</a>
+                                </div>
+                                <div id="contact">
+                                    <img src="images/phone.png" alt="" id="icon">
+                                    <a href="tell:+251922346560" target="_blank" rel="noopener noreferrer">contact developer</a>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="b">
+                                For donations and support contributions can be made via  
+                                Commercial Bank of Ethiopia: <span class="brown">1000306434997</span>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

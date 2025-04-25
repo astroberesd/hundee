@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>services page</title>
+    <link rel="stylesheet" href="services.css">
+    <script src="services.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <div id="containHerdaer">
+            <div id="header">
+                <button id="menu" onclick="hotdog()">
+                    <img src="images/menu.svg" alt="Menu" id="menuI">
+                </button>
+                <span id="heardertxt">
+                    Services
+                </span>
+                <button id="theme" onclick="darkMode()">
+                    <img src="images/dark.svg" alt="Dark Mode" id="themeCol">
+                </button>
+            </div>
+        </div>
+        <div id="toggleContainer">
+            <div id="toggleBar">
+                <div id="toggleHeader">
+                    <span></span>
+                    <span id="tglNote">
+                        Menu
+                    </span>
+                    <img src="images/close.svg" alt="" id="close" onclick="backTgl()">
+                </div>
+                <div id="toggleBody">
+                    <div class="s" onclick="home()">
+                        <p class="toggleItems">Home</p>
+                    </div>
+                    <div class="s" onclick="about()">
+                        <p class="toggleItems">About us</p>
+                    </div>
+                    <div class="s" id="active">
+                        <p class="toggleItems" id="activeTgl">Services</p>
+                    </div>
+                    <div class="s" onclick="Portfolio()">
+                        <p class="toggleItems">Portfolio</p>
+                    </div>
+                    <div class="s" onclick="contact()">
+                        <p class="toggleItems">Contact</p>
+                    </div>
+                </div>
+            </div>
+            <div id="cancle" onclick="backTgl()">
+
+            </div>
+        </div>
+        <div id="containerBody">
+            <div id="body">
+                <div id="noteContainer">
+                    <div id="note">
+                        <p class="p"><b>Our Services</b></p>
+                        <b>Spiritual Guidance & Church Leadership:</b>
+                        <ul>
+                            <li>
+                                Legesse, as a prophet and founder of Hundee Ebenezer Worldwide 
+                                Church, provides sermons and teachings to deepen spiritual understanding and pastoral care for the congregation.
+                            </li>
+                            <li>
+                                He also leads church outreach programs and ministry services.
+                            </li>
+                        </ul>
+                        <b>Educational Services: </b>
+                        <ul>
+                            <li>
+                                As a secondary school Physics teacher, Legesse creates interactive learning experiences through experiments and real-world applications.
+                            </li>
+                            <li>
+                                He encourages critical thinking and problem-solving skills among students.
+                            </li>
+                            <li>
+                                He develops curriculum and provides mentorship.
+                            </li>
+                        </ul>
+                        <b>Community Support & Outreach: </b>
+                        <ul>
+                            <li>
+                                Beyond his professional roles, Legesse is dedicated to social service.
+                            </li>
+                            <li>
+                                This includes Bible training programs, helping orphans and widows, and supporting vulnerable communities academically, spiritually, and economically.
+                            </li>
+                            <li>
+                                He is also involved in building homes for homeless individuals and supporting struggling families.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

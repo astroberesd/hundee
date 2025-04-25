@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about us page</title>
+    <link rel="stylesheet" href="abtStyle.css">
+    <script src="abtScript.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <div id="containHerdaer">
+            <div id="header">
+                <button id="menu" onclick="hotdog()">
+                    <img src="images/menu.svg" alt="Menu" id="menuI">
+                </button>
+                <span id="heardertxt">
+                    About us
+                </span>
+                <button id="theme" onclick="darkMode()">
+                    <img src="images/dark.svg" alt="Dark Mode" id="themeCol">
+                </button>
+            </div>
+        </div>
+        <div id="toggleContainer">
+            <div id="toggleBar">
+                <div id="toggleHeader">
+                    <span></span>
+                    <span id="tglNote">
+                        Menu
+                    </span>
+                    <img src="images/close.svg" alt="" id="close" onclick="backTgl()">
+                </div>
+                <div id="toggleBody">
+                    <div class="s" onclick="home()">
+                        <p class="toggleItems">Home</p>
+                    </div>
+                    <div class="s" id="active">
+                        <p class="toggleItems" id="activeTgl">About us</p>
+                    </div>
+                    <div class="s" onclick="services()">
+                        <p class="toggleItems">Services</p>
+                    </div>
+                    <div class="s" onclick="protfilo()">
+                        <p class="toggleItems">Portfolio</p>
+                    </div>
+                    <div class="s" onclick="contact()">
+                        <p class="toggleItems">Contact</p>
+                    </div>
+                </div>
+            </div>
+            <div id="cancle" onclick="backTgl()">
+
+            </div>
+        </div>
+        <div id="containerBody">
+            <div id="body">
+                <div id="noteContainer">
+                    <p id="note"> 
+                        <b>Legesse Diriba Dubessa:</b> is devoted to serving both spiritually and academically As a 
+                        prophet actively involved in Pentecostal Churches he founded <span class="b">Hundee Ebeenezer</span> Worldwide
+                        Church holding a licensed certificate in Addis Ababa Alongside his spiritual calling he 
+                        is also a passionate Physics teacher in secondary school helping students develop a strong 
+                        understanding of the physical world <br><br>
+                        Born on <span class="b">January 5 1990 E C</span> in Bekenisa Becheru kebele Sibu Sire woreda East Wolega Zone his
+                        educational journey includes studies at Anno Elementary School Bako Secondary School Jimma 
+                        Main Campus and pedagogical training at Wollega University <br><br>Additionally he holds a Certificate 
+                        in <span class="b">Christian Theology</span> from New Life Joshua Campaign Ethiopia and completed a Special 
+                        <span class="b">Capacity Building Training</span> Program for Secondary School Teachers at Addis Ababa University  
+                        Fluent in Afaan Oromo Amharic and English he bridges communities through both faith and education
+                        currently residing in Addis Ababa Ethiopia.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
